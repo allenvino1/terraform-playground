@@ -1,0 +1,58 @@
+{
+    "Fruits" : [
+        "apple",
+        "banana", 
+        "orange"
+    ],
+
+    "Car": {
+        "model": "toyta",
+        "color" : "blue"
+    },
+
+    "Map1" : {
+        "Map1Key": "Map1value",
+        "Map2Key": "Map2value",
+        "Map3Key": "Map1Value"
+    },
+
+    "bq_iam_role_bindings": {
+        "member1" : {
+            "dataset1" : ["role1","role2", "role5"],
+            "dataset2" : ["role3","role2"]
+          },
+          "member2" : {
+            "dataset3" : ["role1","role4"],
+            "dataset2" : ["role5"]
+          } 
+    },
+
+    "WorkerNodes": [
+        {
+            "name": "apiWorkernodes",
+            "type": "Preemptible",
+            "Country": "SG",
+            "test": "test"
+        },
+        {
+            "name": "apiWorkernodes1",
+            "type": "Preemptible",
+            "Country": "SG"
+        }, 
+        {
+            "name": "Database",
+            "type": "HA",
+            "Country": "PH"
+        },
+        {
+            "name": "Api",
+            "type": "Preemptible",
+            "Country": "MY"
+        },
+        {
+            "name": "nginx",
+            "type": "Preemptible",
+            "Country": "MY"
+        }
+    ]
+}
